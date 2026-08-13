@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iyunga Tech Secondary School</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-area">
+            <img src="images/logo.png" alt="Iyunga Tech School Logo">
+            <h2>Iyunga Tech Secondary School</h2>
+        </div>
+
+        <nav>
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="academics.html">Academics</a>
+            <a href="news.html">News</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div>
+            <h1>Welcome to Iyunga Tech Secondary School</h1>
+            <p>
+                Learning today, leading tomorrow through knowledge,
+                technology and discipline.
+            </p>
+
+            <a href="#application" class="btn">Apply Now</a>
+        </div>
+    </section>
+
+    <!-- School picture -->
+    <section class="content">
+        <div class="text">
+            <h2>Welcome to Our School</h2>
+            <p>
+                Iyunga Tech Secondary School provides a friendly learning
+                environment where students develop academic, technical
+                and life skills.
+            </p>
+
+            <p>
+                Our goal is to prepare students to become responsible,
+                creative and useful members of society.
+            </p>
+        </div>
+
+        <div class="image">
+            <img src="images/school.jpg" alt="Iyunga Tech Secondary School">
+        </div>
+    </section>
+
+    <!-- Application section -->
+    <section id="application" class="application">
+        <h2>Student Application</h2>
+        <p>Fill in your name and age to register your application.</p>
+
+        <form id="applicationForm">
+            <input type="text" id="studentName" placeholder="Enter your name" required>
+
+            <input type="number" id="studentAge"
+                   placeholder="Enter your age"
+                   min="10" max="25" required>
+
+            <button type="submit">Register Student</button>
+        </form>
+
+        <p id="message"></p>
+
+        <div class="registered">
+            <h3>Registered Students</h3>
+            <ol id="studentList"></ol>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Iyunga Tech Secondary School. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
